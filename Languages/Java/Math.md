@@ -15,5 +15,5 @@ This page is about math relevant functions or methods.
      * [0, 1) -> 0, [1, 2) -> 1, ... , [x - 1, x) -> x - 1, [x, x + 1) -> x;
      * [-1, 0) -> -1, [-2, -1) -> -2, ... , [-x - 1, -x) -> -x - 1;
     */
-    int integer = Math.floor(num); // 
+    int integer = Math.floor(num);
     ```
