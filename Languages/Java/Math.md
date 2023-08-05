@@ -1,3 +1,8 @@
+- [Overview](#overview)
+- [Random](#random)
+- [Round](#round)
+
+
 # Overview
 This page covers relevant math functions and methods.
 

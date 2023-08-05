@@ -1,3 +1,7 @@
+- [Overview](#overview)
+- [Dimensionality Reduction](#dimensionality-reduction)
+
+
 # Overview
 This page presents matrix-related skills and algorithms.
 
