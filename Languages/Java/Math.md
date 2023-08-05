@@ -1,5 +1,5 @@
 # Overview
-This page is about math relevant functions or methods.
+This page covers relevant math functions and methods.
 
 # Random
 1. Random Integer: In order to get an integer value from `[0, x)`.
