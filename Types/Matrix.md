@@ -1,0 +1,2 @@
+# Flip the Matrix
+Each matrix element typically comprises two phases, and the task permits selective flipping of elements between phases, subject to specified constraints or rules, to achieve the desired outcome

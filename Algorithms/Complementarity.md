@@ -1,0 +1,2 @@
+# Complementary Binary String
+The binary string should only contain `1` and `0`. If every bit in two strings is different, they are considered complementary binary strings, such as `11001010` and `00110101`.
