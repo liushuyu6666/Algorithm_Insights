@@ -1,3 +1,6 @@
+- [dynamic programming](#dynamic-programming)
+
+
 # dynamic programming
 The algorithm comprises two core elements:
 1. **Initial State**: Initialization values, like edge grids of a matrix or start indices.
