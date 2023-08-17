@@ -1,5 +1,6 @@
 # Overview
 The Grouping algorithm finds application in arrays or strings. By arranging adjacent elements or characters according to specified rules or constraints, we can streamline the array or string, directing our attention to the desired features.
+One possible approach to group a string is using regex.
 
 # Examples
 ## binary string
