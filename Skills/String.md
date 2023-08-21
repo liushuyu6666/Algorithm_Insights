@@ -1,14 +1,22 @@
-# Overview
-This section provides an in-depth exploration of utilizing regular expressions (regex) within code. Regex significantly enhances coding convenience and effectiveness. As various programming languages employ distinct regex syntax, we have organized this page into separate sections based on programming languages. This approach allows us to delve into specific use cases and applications for regex within each language.
+- [Overview](#overview)
+- [String Skill](#string-skill)
+  - [Regex](#regex)
+    - [JavaScript](#javascript)
 
-# JavaScript
-## Code Examples
+
+# Overview
+This page is dedicated to the skills of manipulating and evaluating strings.
+
+# String Skill
+## Regex
+### JavaScript
+
+**Code Examples**
 ```javascript
 list = s.match(/(0+)|(1+)/g); // extract either one expression or another.
 ```
 
-
-## Official Documents
+**Official Documents**
 [Regex](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions)
     - [Assertions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Assertions)
     - [Character classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Character_classes): distinguish kinds of characters
