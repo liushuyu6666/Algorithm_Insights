@@ -4,6 +4,8 @@
   - [Character mapping](#character-mapping)
   - [Elements grouping](#elements-grouping)
     - [Categories](#categories)
+  - [Parentheses Problem](#parentheses-problem)
+    - [Categories](#categories-1)
 
 
 # Overview
@@ -35,3 +37,16 @@ Elements can be classified into two or more types. Within each type, all element
 3. **Element Flipping**: Some problems might require flipping elements, which can also relate to matrix flipping. **More examples are needed to delve deeper**.
    * [Minimum Moves to Convert String](https://leetcode.cn/problems/minimum-moves-to-convert-string/)
    * [Minimum Changes To Make Alternating Binary String](https://leetcode.cn/problems/minimum-changes-to-make-alternating-binary-string/)
+
+## Parentheses Problem
+This problem combines the concepts of strings and arrays. Specifically, characters in a string can be thought of as elements of an array, which is why we use the term "elements" in this context.
+
+In this problem, every element type has a corresponding paired type.
+
+### Categories
+1. Two paired elements can be offset against each other. A `stack` can be utilized to store these elements. When a new element is added to the stack, check if it can be paired with the topmost element (peek). If they can be paired, remove both elements from the stack.
+   * [Split a String in Balanced Strings](https://leetcode.cn/problems/split-a-string-in-balanced-strings/)
+   * [Robot Return to Origin](https://leetcode.cn/problems/robot-return-to-origin/)
+   * [Remove All Adjacent Duplicates In String](https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string/)
+   * [Valid Parentheses](https://leetcode.cn/problems/valid-parentheses/)
+
