@@ -41,7 +41,7 @@ Elements can be classified into two or more types. Within each type, all element
 ## Parentheses Problem
 This problem combines the concepts of strings and arrays. Specifically, characters in a string can be thought of as elements of an array, which is why we use the term "elements" in this context.
 
-In this problem, every element type has a corresponding paired type.
+In this problem, every element type has a corresponding paired type. When two paired elements meet, they will be offset. It's important to note that the issue with parentheses always pertains to consecutive paired elements. Thus, the problem can be extended: when `n` consecutive elements come into contact, one or more of them must be offset.
 
 ### Categories
 1. Two paired elements can be offset against each other. A `stack` can be utilized to store these elements. When a new element is added to the stack, check if it can be paired with the topmost element (peek). If they can be paired, remove both elements from the stack.
@@ -49,4 +49,7 @@ In this problem, every element type has a corresponding paired type.
    * [Robot Return to Origin](https://leetcode.cn/problems/robot-return-to-origin/)
    * [Remove All Adjacent Duplicates In String](https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string/)
    * [Valid Parentheses](https://leetcode.cn/problems/valid-parentheses/)
-
+   * [Make The String Great](https://leetcode.cn/problems/make-the-string-great/)
+   * [Minimum String Length After Removing Substrings](https://leetcode.cn/problems/minimum-string-length-after-removing-substrings/)
+2. When `n` consecutive elements appear, offset one or more of them.
+   * [Delete Characters to Make Fancy String](https://leetcode.cn/problems/delete-characters-to-make-fancy-string/)
