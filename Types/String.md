@@ -33,9 +33,11 @@ Elements can be classified into two or more types. Within each type, all element
      * [Compress String LCCI](https://leetcode.cn/problems/compress-string-lcci/)
      * [Design Compressed String Iterator](https://leetcode.cn/problems/design-compressed-string-iterator/)
    * String/Array Splitting: **The solution approach can vary and more examples are required for a comprehensive understanding**
-     * [Count Binary Substrings](https://leetcode.cn/problems/count-binary-substrings/)
+     * [Count Binary Substrings](https://leetcode.cn/problems/count-binary-substrings/).
      * [Split a String in Balanced Strings](https://leetcode.cn/problems/split-a-string-in-balanced-strings/): This is akin to a "parenthesis problem".
      * [Maximum Score After Splitting a String](https://leetcode.cn/problems/maximum-score-after-splitting-a-string/): This problem can also be approached as a "find the extremum" question, making dynamic programming a potential solution.
+     * [Check if String Is Decomposable Into Value-Equal Substrings](https://leetcode.cn/problems/check-if-string-is-decomposable-into-value-equal-substrings/).
+     * [Find the Longest Balanced Substring of a Binary String](https://leetcode.cn/problems/find-the-longest-balanced-substring-of-a-binary-string/), This is also a binary string.
 2. **Element Position Consideration**: Consider the position of varying element types and rearrange the order of the original array. Further examples are needed to understand fully.
    * [Reformat The String](https://leetcode.cn/problems/reformat-the-string/)
 3. **Element Flipping**: Some problems might require flipping elements, which can also relate to matrix flipping. **More examples are needed to delve deeper**.
