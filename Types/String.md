@@ -41,6 +41,7 @@ Elements can be classified into two or more types. Within each type, all element
 3. **Element Flipping**: Some problems might require flipping elements, which can also relate to matrix flipping. **More examples are needed to delve deeper**.
    * [Minimum Moves to Convert String](https://leetcode.cn/problems/minimum-moves-to-convert-string/)
    * [Minimum Changes To Make Alternating Binary String](https://leetcode.cn/problems/minimum-changes-to-make-alternating-binary-string/)
+   * [Flip Game](https://leetcode.cn/problems/flip-game/)
 
 ## Parentheses Problem
 This problem combines the concepts of strings and arrays. Specifically, characters in a string can be thought of as elements of an array, which is why we use the term "elements" in this context.
