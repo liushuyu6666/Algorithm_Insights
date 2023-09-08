@@ -33,5 +33,5 @@ Elements can be classified into two or more types. Within each type, all element
 2. **Element Position Consideration**: Consider the position of varying element types and rearrange the order of the original array. Further examples are needed to understand fully.
    * [Reformat The String](https://leetcode.cn/problems/reformat-the-string/)
 3. **Element Flipping**: Some problems might require flipping elements, which can also relate to matrix flipping. **More examples are needed to delve deeper**.
-   * [https://leetcode.cn/problems/minimum-moves-to-convert-string/](https://leetcode.cn/problems/minimum-moves-to-convert-string/)
+   * [Minimum Moves to Convert String](https://leetcode.cn/problems/minimum-moves-to-convert-string/)
    * [Minimum Changes To Make Alternating Binary String](https://leetcode.cn/problems/minimum-changes-to-make-alternating-binary-string/)
