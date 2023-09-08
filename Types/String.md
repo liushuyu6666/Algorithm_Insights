@@ -8,6 +8,8 @@
     - [Categories](#categories-1)
   - [Reverse String](#reverse-string)
     - [Categories](#categories-2)
+  - [Repeat String](#repeat-string)
+    - [Categories:](#categories-3)
 
 
 # Overview
@@ -68,3 +70,18 @@ This question requires you to reverse the entire string or a part of it. The bui
    * [Reverse Words in a String III](https://leetcode.cn/problems/reverse-words-in-a-string-iii/)
 2. Check if two strings are reversed versions of each other.
    * [Find Maximum Number of String Pairs](https://leetcode.cn/problems/find-maximum-number-of-string-pairs/)
+
+
+## Repeat String
+
+The concept of a 'repeat string' typically involves two components: the "string" and the "pattern". The string should be constructed by the repeated concatenation of the pattern. For instance, the string "abcabc" is a repeat string with the pattern "abc".
+
+Here are some valuable skills that can help us address the question:
+1. [Repeat String Concatenation](https://github.com/liushuyu6666/Algorithm_Insights/blob/master/Skills/String.md#repeat-string-concatenation)
+
+### Categories:
+1. Just need to check if a string contains repeat pattern:
+   * [Repeated Substring Pattern](https://leetcode.cn/problems/repeated-substring-pattern/)
+   * [Greatest Common Divisor of Strings](https://leetcode.cn/problems/greatest-common-divisor-of-strings/)
+2. Need to build a repeat string:
+   * [Repeat String](https://leetcode.cn/problems/repeat-string/)
