@@ -6,6 +6,8 @@
     - [Categories](#categories)
   - [Parentheses Problem](#parentheses-problem)
     - [Categories](#categories-1)
+  - [Reverse String](#reverse-string)
+    - [Categories](#categories-2)
 
 
 # Overview
@@ -53,3 +55,16 @@ In this problem, every element type has a corresponding paired type. When two pa
    * [Minimum String Length After Removing Substrings](https://leetcode.cn/problems/minimum-string-length-after-removing-substrings/)
 2. When `n` consecutive elements appear, offset one or more of them.
    * [Delete Characters to Make Fancy String](https://leetcode.cn/problems/delete-characters-to-make-fancy-string/)
+
+
+## Reverse String
+This question requires you to reverse the entire string or a part of it. The built-in function you can use depends on the programming language you choose.
+
+### Categories
+1. Reverse the string.
+   * [Reverse String](https://leetcode.cn/problems/reverse-string/)
+   * [Reverse String II](https://leetcode.cn/problems/reverse-string-ii/)
+   * [Reverse Vowels of a String](https://leetcode.cn/problems/reverse-vowels-of-a-string/)
+   * [Reverse Words in a String III](https://leetcode.cn/problems/reverse-words-in-a-string-iii/)
+2. Check if two strings are reversed versions of each other.
+   * [Find Maximum Number of String Pairs](https://leetcode.cn/problems/find-maximum-number-of-string-pairs/)
