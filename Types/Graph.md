@@ -1,5 +1,5 @@
 - [Overview](#overview)
-- [Sub-type of Graph Algorithm](#sub-type-of-graph-algorithm)
+- [Sub-type of Graph Question](#sub-type-of-graph-question)
   - [Connectivity Question](#connectivity-question)
     - [Categories](#categories)
 
@@ -7,7 +7,7 @@
 # Overview
 Questions of this nature pertain to the graph data structure, with trees being a specific type of graph.
 
-# Sub-type of Graph Algorithm
+# Sub-type of Graph Question
 ## Connectivity Question
 These questions assesses the connectivity between two nodes, with questions stemming from the overall node connectivity. The underlying data structures can be either trees or graphs.
 
