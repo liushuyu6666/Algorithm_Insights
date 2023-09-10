@@ -10,6 +10,18 @@
     - [Categories](#categories-2)
   - [Repeat String](#repeat-string)
     - [Categories:](#categories-3)
+  - [Palindrome](#palindrome)
+    - [Categories](#categories-4)
+  - [Consecutive Substring](#consecutive-substring)
+    - [Categories](#categories-5)
+  - [String Shift](#string-shift)
+    - [Categories](#categories-6)
+  - [Number and String](#number-and-string)
+    - [Categories](#categories-7)
+  - [Pattern Matching](#pattern-matching)
+    - [Categories](#categories-8)
+  - [Isomorphic / String Mapping](#isomorphic--string-mapping)
+    - [Categories](#categories-9)
 
 
 # Overview
@@ -60,6 +72,7 @@ In this problem, every element type has a corresponding paired type. When two pa
    * [Minimum String Length After Removing Substrings](https://leetcode.cn/problems/minimum-string-length-after-removing-substrings/)
 2. When `n` consecutive elements appear, offset one or more of them.
    * [Delete Characters to Make Fancy String](https://leetcode.cn/problems/delete-characters-to-make-fancy-string/)
+   * [Largest 3-Same-Digit Number in String](https://leetcode.cn/problems/largest-3-same-digit-number-in-string/)
 
 
 ## Reverse String
@@ -88,3 +101,84 @@ Here are some valuable skills that can help us address the question:
    * [Greatest Common Divisor of Strings](https://leetcode.cn/problems/greatest-common-divisor-of-strings/)
 2. Need to build a repeat string:
    * [Repeat String](https://leetcode.cn/problems/repeat-string/)
+
+
+
+## Palindrome
+Another term related to palindrome is "symmetry." For instance, "aabbaa" is a palindrome string.
+
+### Categories
+1. Rearrange characters to form a palindrome. This type of question has an overlap with the category "character frequency", as both require counting the frequency of characters.
+   * [Palindrome Permutation](https://leetcode.cn/problems/palindrome-permutation/)
+   * [Longest Palindrome](https://leetcode.cn/problems/longest-palindrome/)
+2. Verify if the string is a palindrome. We can use depth-first search or dynamic programming to perform this check.
+   * [Valid Palindrome II](https://leetcode.cn/problems/valid-palindrome-ii/)
+   * [Find First Palindromic String in the Array](https://leetcode.cn/problems/find-first-palindromic-string-in-the-array/)
+
+
+## Consecutive Substring
+The task is to find a consecutive substring within the given string, following the rules specified in the question. Use the sliding window technique to solve this type of problem.
+
+### Categories
+1. [Longest Substring Without Repeating Characters](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)
+2. [Count Vowel Substrings of a String](https://leetcode.cn/problems/count-vowel-substrings-of-a-string/)
+
+
+## String Shift
+
+String can be shifted to the right or to the left. but keep the consecutive order.
+
+**More questions needed**
+
+### Categories
+1. [String Rotation LCCI](https://leetcode.cn/problems/string-rotation-lcci/)
+2. [Perform String Shifts](https://leetcode.cn/problems/perform-string-shifts/)
+
+
+## Number and String
+
+This type of question involves converting numbers into strings or translating some or the entire string into a number.
+
+### Categories
+1. Nothing Special
+   * https://leetcode.cn/problems/largest-odd-number-in-string/
+   * https://leetcode.cn/problems/excel-sheet-column-number/
+   * https://leetcode.cn/problems/excel-sheet-column-title/
+   * https://leetcode.cn/problems/roman-to-integer/
+   * https://leetcode.cn/problems/similar-rgb-color/
+   * https://leetcode.cn/problems/strobogrammatic-number/
+   * https://leetcode.cn/problems/valid-word-abbreviation/
+   * https://leetcode.cn/problems/calculate-digit-sum-of-a-string/
+   * https://leetcode.cn/problems/number-of-lines-to-write-string/
+   * https://leetcode.cn/problems/sum-of-digits-of-string-after-convert/
+   * https://leetcode.cn/problems/number-of-different-integers-in-a-string/
+   * https://leetcode.cn/problems/decrypt-string-from-alphabet-to-integer-mapping/
+
+
+
+## Pattern Matching
+
+This type of question is straightforward. Here are some algorithms:
+1. [KMP](https://github.com/liushuyu6666/Algorithm_Insights/blob/master/Algorithms/String.md#kmp)
+
+### Categories
+1. Find a pattern in a string:
+   * [String Matching in an Array](https://leetcode.cn/problems/string-matching-in-an-array/)
+   * [Index Pairs of a String](https://leetcode.cn/problems/index-pairs-of-a-string/)
+   * [Count Prefixes of a Given String](https://leetcode.cn/problems/count-prefixes-of-a-given-string/)
+   * [Number of Strings That Appear as Substrings in Word](https://leetcode.cn/problems/number-of-strings-that-appear-as-substrings-in-word/)
+
+## Isomorphic / String Mapping
+
+Isomorphism primarily deals with string mapping. In such problems, we consistently encounter two entities, which can either be strings or string arrays. The mapping can be categorized into:
+1. Mapping a string to a character,
+2. Mapping a string to another string,
+3. Mapping a character to another character.
+
+
+### Categories
+1. The mapping is not pre-defined, we need to [create string mapping](https://github.com/liushuyu6666/Algorithm_Insights/blob/master/Skills/String.md#create-string-mapping)
+   * [Word Pattern](https://leetcode.cn/problems/word-pattern/)
+   * [Isomorphic Strings](https://leetcode.cn/problems/isomorphic-strings/)
+2. The mapping is pre-defined, we need to [simplify string mapping](https://github.com/liushuyu6666/Algorithm_Insights/blob/master/Skills/String.md#simplify-string-mapping)
+   * [Sentence Similarity](https://leetcode.cn/problems/sentence-similarity/)
