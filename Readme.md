@@ -8,7 +8,7 @@ The order is `Type` -> `Algorithms` / `Skills` / `Language` -> `Caveats`
 This project is organized into five distinct sections:
 
 1. **Types**:
-   - Represents the category of a question.
+   - Represents the category of a question. Links of all questions under this type will be provided.
    - While some question types have a strong correlation with specific algorithms (e.g., dynamic programming), others might fall under the same type but require different skills or algorithms.
    - Questions are grouped by their `Type` label. Relevant algorithm or skill URLs associated with these questions will be provided. Where possible, these URLs should link to the current repository.
    - Note: Some questions might be labeled with multiple `Types`. All such labels should be taken into account.
