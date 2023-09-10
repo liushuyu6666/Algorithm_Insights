@@ -1,14 +1,16 @@
 - [Overview](#overview)
-- [Caveats](#caveats)
+- [Sub-type of All Caveats](#sub-type-of-all-caveats)
   - [Redundant Conditional Checking](#redundant-conditional-checking)
   - [Max Integer Initialization](#max-integer-initialization)
     - [Examples](#examples)
+  - [Connectivity missing](#connectivity-missing)
+  - [Infinite dfs](#infinite-dfs)
 
 
 
 # Overview
 
-# Caveats
+# Sub-type of All Caveats
 ## Redundant Conditional Checking
 If the while loop has multiple parts, the condition needs to be redundantly checked within each part of the loop's body due to:
    1. **Sequential Execution**: Each part is executed within the loop sequentially.
@@ -20,4 +22,12 @@ We must exercise caution when initializing an element with the maximum integer v
 
 ### Examples
 - [01 Matrix](https://github.com/liushuyu6666/Leetcode_Java/tree/master/src/Zero_One_Matrix)
+
+
+## Connectivity missing
+In certain 'Connectivity Questions', [some nodes are missing from the connectivity relationships](https://github.com/liushuyu6666/Algorithm_Leetcode_JavaScript/tree/master/Number_of_Connected_Components_in_an_Undirected_Graph#connectivity-missing).
+
+## Infinite dfs
+One case of the infinite dfs problem is [here](https://github.com/liushuyu6666/Algorithm_Leetcode_JavaScript/tree/master/Number_of_Connected_Components_in_an_Undirected_Graph#infinite-dfs)
+
 
