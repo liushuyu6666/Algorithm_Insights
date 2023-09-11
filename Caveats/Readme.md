@@ -5,6 +5,7 @@
     - [Examples](#examples)
   - [Connectivity missing](#connectivity-missing)
   - [Infinite dfs](#infinite-dfs)
+  - [Father is not ancestor in Union Find](#father-is-not-ancestor-in-union-find)
 
 
 
@@ -29,5 +30,8 @@ In certain 'Connectivity Questions', [some nodes are missing from the connectivi
 
 ## Infinite dfs
 One case of the infinite dfs problem is [here](https://github.com/liushuyu6666/Algorithm_Leetcode_JavaScript/tree/master/Number_of_Connected_Components_in_an_Undirected_Graph#infinite-dfs)
+
+## Father is not ancestor in Union Find
+Detail can be found [here](https://github.com/liushuyu6666/Algorithm_Leetcode_JavaScript/blob/master/Sentence_Similarity_II/Readme.md#father-is-not-ancestor-in-union-find).
 
 
