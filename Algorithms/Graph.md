@@ -31,3 +31,12 @@ Consider the following guidelines when constructing an adjacency list:
 There are some Caveats:
 1. (Connectivity missing)[https://github.com/liushuyu6666/Algorithm_Leetcode_JavaScript/blob/master/Number_of_Connected_Components_in_an_Undirected_Graph/Readme.md#connectivity-missing]
 2. (Infinite dfs)[https://github.com/liushuyu6666/Algorithm_Leetcode_JavaScript/blob/master/Number_of_Connected_Components_in_an_Undirected_Graph/Readme.md#infinite-dfs]
+
+
+## Union Find
+Union-Find is employed to address connectivity problems. 
+
+Connectivity problems can be broadly classified into two categories: (Static Connectivity and Dynamic Connectivity)[https://github.com/liushuyu6666/Algorithm_Leetcode_JavaScript/blob/master/Sentence_Similarity_II/Readme.md#union-find].
+
+There is one Caveats:
+1. (father is not ancestor in union find)[https://github.com/liushuyu6666/Algorithm_Insights/blob/master/Caveats/Readme.md#father-is-not-ancestor-in-union-find]
