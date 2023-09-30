@@ -34,6 +34,7 @@ while(r < arr.length) {
 ### Categories
 1. The window starts with both boundaries at position 0. The right boundary slides to the right until the requirement is no longer met. At that point, the left boundary starts to move right, releasing some characters to meet the requirement again. Once this is done, the right boundary resumes its movement to the right:
    * [Longest Substring Without Repeating Characters](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)
+   * [Minimum Size Subarray Sum](https://leetcode.cn/problems/minimum-size-subarray-sum/)
 2. The window's left boundary starts at position 0 and moves to the right until the requirement is satisfied. After that, the window expands as mentioned in the previous item:
    * [Count Vowel Substrings of a String](https://leetcode.cn/problems/count-vowel-substrings-of-a-string/)
 
