@@ -25,3 +25,22 @@ This project is organized into five distinct sections:
 4. **Languages**:
    - Highlights language-specific techniques or skills.
    - Associated URLs will direct readers to detailed discussions in the specific README file of a question.
+
+
+
+# TODO
+1. A Algorithm_Intelligence should be integrated into the backend console to extract folder and file paths of given github url automatically.
+2. Each Algorithm Questions repo should follow a certain format, having `src` folder under the root directory. So, this Algorithm Intelligence could extract questions title from these Algorithm Questions Repository. Each question should have a `labels.md` file to labelize questions and read by the Algorithm_Intelligence.
+3. The Algorithm_Intelligence will read 
+   1. questions titles, 
+   2. questions labels
+   3. questions github url
+   4. labels - has content fields
+   5. questions origin
+   6. readme url for labels explanation
+   and store all these info into the database
+4. When open the Algorithm console frontend, it display:
+   1. Labels
+   2. Questions with Labels
+5. Algorithm Insight will summarize all labels but no need to list questions here, no need to bind to the labels readme either (??). The Algorithm_Intelligence shows labels content url.
+6. For a label document, it should record the url of the summary in Algorithm_Insights as well as the content url of each questions. When the user click on a label, the label page first show the summary and then list all questions with this label, if the question has the readme for this label, the label icon will have a red edge.
